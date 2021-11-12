@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
+		"rect" : [ -1357.0, 91.0, 1212.0, 687.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -4438,14 +4438,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "side_text.js",
-				"bootpath" : "~/kin/nuKin/lib",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.capcat.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/capcat",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/capcat",
 				"patcherrelativepath" : "./lib/capcat",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4453,13 +4453,13 @@
 , 			{
 				"name" : "camu.menu.maxpat",
 				"bootpath" : "~/Documents/catart-mubu-master/patches/lib",
-				"patcherrelativepath" : "../../Documents/catart-mubu-master/patches/lib",
+				"patcherrelativepath" : "../../../../catart-mubu-master/patches/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.camu.triggermode.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/capcat",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/capcat",
 				"patcherrelativepath" : "./lib/capcat",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4467,20 +4467,20 @@
 , 			{
 				"name" : "camu.random.maxpat",
 				"bootpath" : "~/Documents/catart-mubu-master/patches/lib",
-				"patcherrelativepath" : "../../Documents/catart-mubu-master/patches/lib",
+				"patcherrelativepath" : "../../../../catart-mubu-master/patches/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.target.maxpat",
 				"bootpath" : "~/Documents/catart-mubu-master/patches/lib",
-				"patcherrelativepath" : "../../Documents/catart-mubu-master/patches/lib",
+				"patcherrelativepath" : "../../../../catart-mubu-master/patches/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu-to-som.js",
-				"bootpath" : "~/kin/nuKin/lib/capcat",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/capcat",
 				"patcherrelativepath" : "./lib/capcat",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -4505,21 +4505,21 @@
 			}
 , 			{
 				"name" : "newkin-forCapturing.maxpat",
-				"bootpath" : "~/kin/nuKin",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib",
+				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.windowMaker.maxpat",
-				"bootpath" : "~/kin/nuKin/lib",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "padlock.svg",
-				"bootpath" : "~/kin/nuKin/lib/icons",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/icons",
 				"patcherrelativepath" : "./lib/icons",
 				"type" : "svg",
 				"implicit" : 1
@@ -4527,62 +4527,62 @@
 , 			{
 				"name" : "dot.mean.sliding.maxpat",
 				"bootpath" : "~/dispersion-lab/3rd-party/max-msp/digital-orchestra-toolbox-master/patchers",
-				"patcherrelativepath" : "../../dispersion-lab/3rd-party/max-msp/digital-orchestra-toolbox-master/patchers",
+				"patcherrelativepath" : "../../../../../dispersion-lab/3rd-party/max-msp/digital-orchestra-toolbox-master/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.float.sanitize.maxpat",
 				"bootpath" : "~/dispersion-lab/3rd-party/max-msp/digital-orchestra-toolbox-master/patchers",
-				"patcherrelativepath" : "../../dispersion-lab/3rd-party/max-msp/digital-orchestra-toolbox-master/patchers",
+				"patcherrelativepath" : "../../../../../dispersion-lab/3rd-party/max-msp/digital-orchestra-toolbox-master/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.window.sliding.maxpat",
 				"bootpath" : "~/dispersion-lab/3rd-party/max-msp/digital-orchestra-toolbox-master/patchers",
-				"patcherrelativepath" : "../../dispersion-lab/3rd-party/max-msp/digital-orchestra-toolbox-master/patchers",
+				"patcherrelativepath" : "../../../../../dispersion-lab/3rd-party/max-msp/digital-orchestra-toolbox-master/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.petra8~.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/grainEngines",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/grainEngines",
 				"patcherrelativepath" : "./lib/grainEngines",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.petraChannel.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/grainEngines",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/grainEngines",
 				"patcherrelativepath" : "./lib/grainEngines",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "som_1",
-				"bootpath" : "~/kin/nuKin/lib/som/saved",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/som/saved",
 				"patcherrelativepath" : "./lib/som/saved",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.sakonda~.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/grainEngines",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/grainEngines",
 				"patcherrelativepath" : "./lib/grainEngines",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.soundOrganizer-browser.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/soundOrganizer",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/soundOrganizer",
 				"patcherrelativepath" : "./lib/soundOrganizer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.mubu.usual.onseg.maxpat",
-				"bootpath" : "~/kin/nuKin/lib",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4601,14 +4601,14 @@
 			}
 , 			{
 				"name" : "voice_mlp_01",
-				"bootpath" : "~/kin/nuKin/lib/mlp/saved",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/mlp/saved",
 				"patcherrelativepath" : "./lib/mlp/saved",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.wacomHub.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/wacom",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/wacom",
 				"patcherrelativepath" : "./lib/wacom",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4616,13 +4616,13 @@
 , 			{
 				"name" : "s2m.recycleFingersIDs.js",
 				"bootpath" : "~/Documents/Max 8/Library/s2m.wacomtouch",
-				"patcherrelativepath" : "../../Documents/Max 8/Library/s2m.wacomtouch",
+				"patcherrelativepath" : "../../../../Max 8/Library/s2m.wacomtouch",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.stylusFeatureExtraction.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/wacom",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/wacom",
 				"patcherrelativepath" : "./lib/wacom",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4630,83 +4630,83 @@
 , 			{
 				"name" : "mo.velocity.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modosc-main/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/modosc-main/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/modosc-main/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.jerk.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modosc-main/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/modosc-main/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/modosc-main/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mo.acceleration.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/modosc-main/patchers",
-				"patcherrelativepath" : "../../Documents/Max 8/Packages/modosc-main/patchers",
+				"patcherrelativepath" : "../../../../Max 8/Packages/modosc-main/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.median.sliding.maxpat",
 				"bootpath" : "~/dispersion-lab/3rd-party/max-msp/digital-orchestra-toolbox-master/patchers",
-				"patcherrelativepath" : "../../dispersion-lab/3rd-party/max-msp/digital-orchestra-toolbox-master/patchers",
+				"patcherrelativepath" : "../../../../../dispersion-lab/3rd-party/max-msp/digital-orchestra-toolbox-master/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.gesCapture.maxpat",
-				"bootpath" : "~/kin/nuKin/lib",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.yin.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/analysis",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/analysis",
 				"patcherrelativepath" : "./lib/analysis",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.variableDelay8.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/delays",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/delays",
 				"patcherrelativepath" : "./lib/delays",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.dl.vdelay~.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/delays",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/delays",
 				"patcherrelativepath" : "./lib/delays",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vbd-mlp-01.txt",
-				"bootpath" : "~/kin/nuKin/lib/delays/vbd-mlp",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/delays/vbd-mlp",
 				"patcherrelativepath" : "./lib/delays/vbd-mlp",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.nano.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/nanokontrol",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/nanokontrol",
 				"patcherrelativepath" : "./lib/nanokontrol",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.hitTrigger.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/hits",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/hits",
 				"patcherrelativepath" : "./lib/hits",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nk.stylusMemory.maxpat",
-				"bootpath" : "~/kin/nuKin/lib/wacom",
+				"bootpath" : "~/Documents/YORK2021/ISA/ISA/etude_05/lib/wacom",
 				"patcherrelativepath" : "./lib/wacom",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4714,7 +4714,7 @@
 , 			{
 				"name" : "dispersion.timebang.maxpat",
 				"bootpath" : "~/dispersion-lab/data_tools",
-				"patcherrelativepath" : "../../dispersion-lab/data_tools",
+				"patcherrelativepath" : "../../../../../dispersion-lab/data_tools",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4833,11 +4833,15 @@
 , 			{
 				"name" : "Minimal",
 				"default" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
+					"elementcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
+					"fontsize" : [ 10.0 ],
+					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ],
 					"fontname" : [ "Futura Medium" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -4848,11 +4852,7 @@
 						"autogradient" : 0.0
 					}
 ,
-					"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
-					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"elementcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ]
+					"fontface" : [ 0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4861,8 +4861,8 @@
 , 			{
 				"name" : "filtergraphBronze",
 				"default" : 				{
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ]
+					"color" : [ 0.010881, 0.909804, 0.896768, 1.0 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -4944,6 +4944,10 @@
 , 			{
 				"name" : "orjan style",
 				"default" : 				{
+					"color" : [ 0.037449, 0.035848, 0.03644, 1.0 ],
+					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor" : [ 0.97911, 0.963068, 0.9712, 1.0 ],
+					"elementcolor" : [ 0.898251, 0.915112, 0.965693, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -4954,11 +4958,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"bgcolor" : [ 0.97911, 0.963068, 0.9712, 1.0 ],
-					"accentcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"color" : [ 0.037449, 0.035848, 0.03644, 1.0 ],
-					"elementcolor" : [ 0.898251, 0.915112, 0.965693, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -4985,8 +4985,8 @@
 , 			{
 				"name" : "scope~001",
 				"default" : 				{
-					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"accentcolor" : [ 0.439216, 0.447059, 0.47451, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
