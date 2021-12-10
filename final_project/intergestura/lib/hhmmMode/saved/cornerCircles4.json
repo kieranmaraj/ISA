@@ -1,0 +1,1993 @@
+{
+   "configuration" : {
+      "default_parameters" : {
+         "absolute_regularization" : 0.01,
+         "covariance_mode" : 0,
+         "gaussians" : 1,
+         "hierarchical" : true,
+         "regression_estimator" : 0,
+         "relative_regularization" : 0.050000000000000003,
+         "states" : 10,
+         "transition_mode" : 1
+      },
+      "multiClass_regression_estimator" : 0,
+      "multithreading" : 2
+   },
+   "exit_transition" : [
+      0.10000000000000001,
+      0.10000000000000001,
+      0.10000000000000001,
+      0.10000000000000001
+   ],
+   "models" : [
+      {
+         "exitProbabilities" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.10000000149011612 ],
+         "label" : "1",
+         "parameters" : {
+            "absolute_regularization" : 0.01,
+            "covariance_mode" : 0,
+            "gaussians" : 1,
+            "hierarchical" : true,
+            "regression_estimator" : 0,
+            "relative_regularization" : 0.050000000000000003,
+            "states" : 10,
+            "transition_mode" : 1
+         },
+         "states" : [
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010006132686836137,
+                        1.1253312965284156e-06,
+                        -7.6776758248839366e-05,
+                        1.1253312965284156e-06,
+                        0.010000221981062235,
+                        -1.3585149777537457e-05,
+                        -7.6776758248839366e-05,
+                        -1.3585149777537457e-05,
+                        0.01184984257974671
+                     ],
+                     "covariance_determinant" : 1.1856764848806178e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.94368041611898,
+                        -0.010367056368599034,
+                        0.64753695250845456,
+                        -0.010367056368599034,
+                        99.997937053122044,
+                        0.11457460250580663,
+                        0.64753695250845456,
+                        0.11457460250580662,
+                        84.393633550073005
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.071728214180978495, 0.068485771583891644, 0.41503989246885703 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010020485838604773,
+                        -1.7294329445849753e-06,
+                        -0.00016895452341642334,
+                        -1.7294329445849753e-06,
+                        0.010009177157927054,
+                        1.9237835983345475e-05,
+                        -0.00016895452341642334,
+                        1.9237835983345475e-05,
+                        0.011924644340466976
+                     ],
+                     "covariance_determinant" : 1.1957144315120839e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.819408806279554,
+                        0.014529015379335862,
+                        1.4142695290733338,
+                        0.014529015379335866,
+                        99.908624471475846,
+                        -0.1609751144963382,
+                        1.4142695290733338,
+                        -0.1609751144963382,
+                        83.880241245664436
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.064535658555245679, 0.067724253987614766, 0.51198618336572699 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010008860818218234,
+                        -2.0563028758511295e-05,
+                        -6.6599722557642005e-05,
+                        -2.0563028758511295e-05,
+                        0.010286156949334394,
+                        0.00042819110876634838,
+                        -6.6599722557642005e-05,
+                        0.00042819110876634838,
+                        0.010962710940988066
+                     ],
+                     "covariance_determinant" : 1.1267566480661336e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.915822903539905,
+                        0.1747574612878954,
+                        0.60017422048229085,
+                        0.17475746128789538,
+                        97.376671940632903,
+                        -3.8023611634188477,
+                        0.60017422048229085,
+                        -3.8023611634188472,
+                        91.370475247501574
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.057970874028508895, 0.082124198830949249, 0.58017304763230626 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010167023797069321,
+                        7.6597833688950406e-05,
+                        0.00020847853432576533,
+                        7.6597833688950406e-05,
+                        0.010343711784669586,
+                        0.00029321532523896905,
+                        0.00020847853432576533,
+                        0.00029321532523896905,
+                        0.010429635523547394
+                     ],
+                     "covariance_determinant" : 1.0954546446726542e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        98.4022197285788,
+                        -0.67347232458157869,
+                        -1.9480333795800699,
+                        -0.67347232458157869,
+                        96.758811310773055,
+                        -2.706783160480434,
+                        -1.9480333795800699,
+                        -2.706783160480434,
+                        95.99566458368524
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.067225172516248058, 0.12026001892448991, 0.63190092809607479 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010148992724258475,
+                        -0.00018257663365396133,
+                        0.00011879027275437848,
+                        -0.00018257663365396133,
+                        0.010500642524243547,
+                        -0.00024081514854487038,
+                        0.00011879027275437848,
+                        -0.00024081514854487038,
+                        0.010200768674935971
+                     ],
+                     "covariance_determinant" : 1.0860392284769319e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        98.575291375406707,
+                        1.6885352389575394,
+                        -1.1080695234964768,
+                        1.6885352389575394,
+                        95.312778047654618,
+                        2.2304377216280589,
+                        -1.1080695234964768,
+                        2.2304377216280593,
+                        98.097386869569618
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.089220852901126038, 0.11051107612326221, 0.65775097117761305 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.01005646506589326,
+                        2.0997944499584899e-05,
+                        -0.00020598523167627674,
+                        2.0997944499584899e-05,
+                        0.0101884605816547,
+                        -0.00018750139217212417,
+                        -0.00020598523167627674,
+                        -0.00018750139217212417,
+                        0.010891716363004691
+                     ],
+                     "covariance_determinant" : 1.115175117975593e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.477350481378153,
+                        -0.17044958672899113,
+                        1.8783913268374923,
+                        -0.17044958672899113,
+                        98.181651860441022,
+                        1.6869780390527147,
+                        1.8783913268374925,
+                        1.6869780390527145,
+                        91.877459736516684
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.0924043522435406, 0.075898555897246256, 0.6945885167516308 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010092243798777096,
+                        -0.00018214399808645285,
+                        -0.00022120090735858997,
+                        -0.00018214399808645285,
+                        0.010473233054883671,
+                        0.00044232922117906295,
+                        -0.00022120090735858997,
+                        0.00044232922117906295,
+                        0.010622021129861598
+                     ],
+                     "covariance_determinant" : 1.1199270544350545e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.159357948585381,
+                        1.6401905499125244,
+                        1.9966666873944141,
+                        1.6401905499125244,
+                        95.676853784875249,
+                        -3.9500821989225336,
+                        1.9966666873944141,
+                        -3.9500821989225332,
+                        94.350113694289476
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.074127730783838747, 0.088699534573774302, 0.75346251832498712 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010052103789291573,
+                        3.8534399973304125e-05,
+                        -6.0855466214604397e-05,
+                        3.8534399973304125e-05,
+                        0.01038283215413713,
+                        0.00028868984561216667,
+                        -6.0855466214604397e-05,
+                        0.00028868984561216667,
+                        0.011043228915725923
+                     ],
+                     "covariance_determinant" : 1.1516801783838139e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.486517694109494,
+                        -0.38475313155369539,
+                        0.55829438885486304,
+                        -0.38475313155369545,
+                        96.384379904662183,
+                        -2.5217811111062129,
+                        0.55829438885486304,
+                        -2.5217811111062125,
+                        90.622226117203226
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.067682337900282524, 0.13937815245885676, 0.79477661548641709 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010004650503869153,
+                        -3.1444440536415029e-06,
+                        -8.5411452525484328e-05,
+                        -3.1444440536415029e-06,
+                        0.010002245100576382,
+                        6.0763071481096244e-05,
+                        -8.5411452525484328e-05,
+                        6.0763071481096244e-05,
+                        0.016011719173716969
+                     ],
+                     "covariance_determinant" : 1.6021661574695072e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.95807660748676,
+                        0.028185648996971256,
+                        0.53310027333640897,
+                        0.028185648996971256,
+                        99.979866904637845,
+                        -0.37926448473715502,
+                        0.53310027333640897,
+                        -0.37926448473715502,
+                        62.45853848007048
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.084822330920576144, 0.14972681366594917, 0.64246530418040093 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010004044605578391,
+                        1.846567256304441e-07,
+                        0.00019448833525822053,
+                        1.846567256304441e-07,
+                        0.010000417978576237,
+                        5.8931653795589501e-05,
+                        0.00019448833525822053,
+                        5.8931653795589501e-05,
+                        0.039100224896485736
+                     ],
+                     "covariance_determinant" : 3.9113544227093786e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.969237461870421,
+                        0.0010843813373938565,
+                        -0.49725837963469033,
+                        0.0010843813373938561,
+                        99.996708549134624,
+                        -0.15071990823681508,
+                        -0.49725837963469033,
+                        -0.15071990823681508,
+                        25.578001041569166
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.085771758286717292, 0.14705174250039119, 0.16793543584213433 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            }
+         ],
+         "transition" : [
+            0.75329571962356567,
+            0.24670429527759552,
+            0.83487021923065186,
+            0.16512975096702576,
+            0.8936692476272583,
+            0.1063307598233223,
+            0.93539214134216309,
+            0.064607895910739899,
+            0.93757641315460205,
+            0.062423642724752426,
+            0.90932834148406982,
+            0.090671688318252563,
+            0.91430431604385376,
+            0.085695691406726837,
+            0.93833518028259277,
+            0.061664879322052002,
+            0.52411746978759766,
+            0.47588256001472473,
+            1,
+            0
+         ]
+      },
+      {
+         "exitProbabilities" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.10000000149011612 ],
+         "label" : "2",
+         "parameters" : {
+            "absolute_regularization" : 0.01,
+            "covariance_mode" : 0,
+            "gaussians" : 1,
+            "hierarchical" : true,
+            "regression_estimator" : 0,
+            "relative_regularization" : 0.050000000000000003,
+            "states" : 10,
+            "transition_mode" : 1
+         },
+         "states" : [
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010000000351506765,
+                        1.3072413781446879e-08,
+                        -3.7843328482171543e-07,
+                        1.3072413781446879e-08,
+                        0.010003002117574895,
+                        -8.5518348174574285e-05,
+                        -3.7843328482171543e-07,
+                        -8.5518348174574285e-05,
+                        0.013039110926375523
+                     ],
+                     "covariance_determinant" : 1.3042294526101543e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.999996594877061,
+                        -0.0001058783511468598,
+                        0.0029015991094401201,
+                        -0.0001058783511468598,
+                        99.975593591240738,
+                        0.65570019535098334,
+                        0.0029015991094401205,
+                        0.65570019535098334,
+                        76.696646047603735
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.96532555966970346, 0.032791547878949237, 0.3667632750504552 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010000318460531652,
+                        6.768536566893629e-07,
+                        -2.4265152942855577e-05,
+                        6.768536566893629e-07,
+                        0.010003240390625156,
+                        -9.5165685630357815e-05,
+                        -2.4265152942855577e-05,
+                        -9.5165685630357815e-05,
+                        0.013877885171265213
+                     ],
+                     "covariance_determinant" : 1.3881859636469194e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.997240001804002,
+                        -0.0051031256575616935,
+                        0.17480780753815539,
+                        -0.0051031256575616926,
+                        99.974128904961006,
+                        0.68554989301345071,
+                        0.17480780753815536,
+                        0.68554989301345071,
+                        72.062095212783348
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.96494109931272243, 0.027443949649868019, 0.55091055770185193 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010027768000771636,
+                        -1.0269703714865031e-05,
+                        -0.00018753398664342512,
+                        -1.0269703714865031e-05,
+                        0.010006741042907824,
+                        3.0435270762265537e-05,
+                        -0.00018753398664342512,
+                        3.0435270762265537e-05,
+                        0.012227813614641585
+                     ],
+                     "covariance_determinant" : 1.226640963659505e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.751795090808344,
+                        0.09772083176215822,
+                        1.5296174964465858,
+                        0.097720831762158206,
+                        99.93348723855523,
+                        -0.24723772053120072,
+                        1.5296174964465858,
+                        -0.24723772053120072,
+                        81.80484357533571
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.96054021482634055, 0.025790751011761107, 0.67233139515374363 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.01015069250243234,
+                        -0.00021729242967615612,
+                        -0.00025408543975698948,
+                        -0.00021729242967615612,
+                        0.010392918468365058,
+                        0.0003622073372088821,
+                        -0.00025408543975698948,
+                        0.0003622073372088821,
+                        0.010537007819434639
+                     ],
+                     "covariance_determinant" : 1.1091448152427198e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        98.615678953379373,
+                        1.9813286685767666,
+                        2.3098736177960428,
+                        1.9813286685767661,
+                        96.374581020529419,
+                        -3.2650781122657566,
+                        2.3098736177960424,
+                        -3.2650781122657566,
+                        95.071538113040262
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.94064746022794077, 0.044804935969781398, 0.74533547310115866 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010360912627912477,
+                        3.2857835749988428e-05,
+                        9.7568582924163134e-05,
+                        3.2857835749988428e-05,
+                        0.010488472002129313,
+                        0.00018037382095498753,
+                        9.7568582924163134e-05,
+                        0.00018037382095498753,
+                        0.010113360949433048
+                     ],
+                     "covariance_determinant" : 1.098573672675063e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        96.526224037443754,
+                        -0.28646629960037895,
+                        -0.92612692458534207,
+                        -0.28646629960037895,
+                        95.372874982626797,
+                        -1.6982306723793945,
+                        -0.92612692458534207,
+                        -1.6982306723793945,
+                        98.918320254649046
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.93747932353288999, 0.093023019189995892, 0.77911958630462352 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010324241325651989,
+                        -0.00024082137897065385,
+                        -1.026303223840346e-05,
+                        -0.00024082137897065385,
+                        0.010696253540040463,
+                        -0.00012347813182574444,
+                        -1.026303223840346e-05,
+                        -0.00012347813182574444,
+                        0.010108163801376099
+                     ],
+                     "covariance_determinant" : 1.1155062614152252e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        96.910469922050154,
+                        2.1833397891163666,
+                        0.12506623558846858,
+                        2.1833397891163662,
+                        93.553053644358101,
+                        1.1450313038720648,
+                        0.12506623558846858,
+                        1.1450313038720645,
+                        98.944050525668686
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.97075446063547, 0.078987679173708553, 0.79149521116420529 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010494569676935702,
+                        2.4337307750241809e-05,
+                        -0.00056016388949885361,
+                        2.4337307750241809e-05,
+                        0.010236280417155262,
+                        -5.082775812907414e-05,
+                        -0.00056016388949885361,
+                        -5.082775812907414e-05,
+                        0.010713516860992048
+                     ],
+                     "covariance_determinant" : 1.1476593361207402e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        95.554469806972335,
+                        -0.20238260164411997,
+                        4.9951736209983473,
+                        -0.20238260164411997,
+                        97.69446565789309,
+                        0.45290667001903206,
+                        4.9951736209983473,
+                        0.45290667001903218,
+                        93.603356313949007
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.95985954602711554, 0.048218931620350014, 0.817117530017761 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.01014899923376617,
+                        -0.0001577301131595541,
+                        -0.00012290001537271236,
+                        -0.0001577301131595541,
+                        0.010305636517831115,
+                        -8.829841937181279e-05,
+                        -0.00012290001537271236,
+                        -8.829841937181279e-05,
+                        0.010935249268515522
+                     ],
+                     "covariance_determinant" : 1.1432281990199739e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        98.569041315580037,
+                        1.5182183077157825,
+                        1.1200652741456594,
+                        1.5182183077157823,
+                        97.064376236129505,
+                        0.80082491375227638,
+                        1.1200652741456596,
+                        0.80082491375227649,
+                        91.466444253197054
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.92551741746758964, 0.068145864725877123, 0.84465392197333766 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010005339586285836,
+                        4.3360306364424767e-06,
+                        -9.3899689582823803e-05,
+                        4.3360306364424767e-06,
+                        0.010003638729471666,
+                        -7.5662200962761347e-05,
+                        -9.3899689582823803e-05,
+                        -7.5662200962761347e-05,
+                        0.012805441958345414
+                     ],
+                     "covariance_determinant" : 1.2815484966487354e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.953525511380832,
+                        -0.037782519809148353,
+                        0.73271553923260146,
+                        -0.037782519809148346,
+                        99.96810774546168,
+                        0.59039424924301664,
+                        0.73271553923260158,
+                        0.59039424924301664,
+                        78.100660292965344
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.92535282128627783, 0.091979481424902546, 0.71925245873596222 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010003868106681314,
+                        2.0961583815512418e-08,
+                        -0.0001977770439501017,
+                        2.0961583815512418e-08,
+                        0.010000499516225121,
+                        3.5470840137119695e-05,
+                        -0.0001977770439501017,
+                        3.5470840137119695e-05,
+                        0.03859677851526503
+                     ],
+                     "covariance_determinant" : 3.8609599237291518e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.971461583172129,
+                        -0.0020265342482616074,
+                        0.5122741533038413,
+                        -0.0020265342482616079,
+                        99.995331077534459,
+                        -0.091907131670579748,
+                        0.51227415330384141,
+                        -0.091907131670579748,
+                        25.911607511372118
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.93156143003580183, 0.094438608601842833, 0.20513748214335309 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            }
+         ],
+         "transition" : [
+            0.85463446378707886,
+            0.14536552131175995,
+            0.80190449953079224,
+            0.19809554517269135,
+            0.87019592523574829,
+            0.12980407476425171,
+            0.93621534109115601,
+            0.0637846440076828,
+            0.95227229595184326,
+            0.047727640718221664,
+            0.92209821939468384,
+            0.07790181040763855,
+            0.90239715576171875,
+            0.09760284423828125,
+            0.94215089082717896,
+            0.057849135249853134,
+            0.70062154531478882,
+            0.29937845468521118,
+            1,
+            0
+         ]
+      },
+      {
+         "exitProbabilities" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.10000000149011612 ],
+         "label" : "3",
+         "parameters" : {
+            "absolute_regularization" : 0.01,
+            "covariance_mode" : 0,
+            "gaussians" : 1,
+            "hierarchical" : true,
+            "regression_estimator" : 0,
+            "relative_regularization" : 0.050000000000000003,
+            "states" : 10,
+            "transition_mode" : 1
+         },
+         "states" : [
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.01000140384353038,
+                        1.7515045818740683e-07,
+                        -2.3400308177436356e-05,
+                        1.7515045818740683e-07,
+                        0.0100000485581301,
+                        -3.4654679691150401e-06,
+                        -2.3400308177436356e-05,
+                        -3.4654679691150401e-06,
+                        0.012299014705022494
+                     ],
+                     "covariance_determinant" : 1.23007450620319e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.986408658726091,
+                        -0.0016853329062000537,
+                        0.19023531492702594,
+                        -0.0016853329062000537,
+                        99.999524213947851,
+                        0.028173452840843619,
+                        0.19023531492702597,
+                        0.028173452840843622,
+                        81.307696037701817
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.067790895603587892, 0.89195843932853014, 0.43141950684046598 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010018778556524175,
+                        5.1629385093367684e-06,
+                        -0.00013383997312398142,
+                        5.1629385093367684e-06,
+                        0.010002459618227428,
+                        -3.7299753243639062e-05,
+                        -0.00013383997312398142,
+                        -3.7299753243639062e-05,
+                        0.011824090390152107
+                     ],
+                     "covariance_determinant" : 1.1847274282082065e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.827684041253278,
+                        -0.047314557177352806,
+                        1.1298264210606432,
+                        -0.047314557177352813,
+                        99.976608368045547,
+                        0.31484622667496026,
+                        1.1298264210606432,
+                        0.31484622667496026,
+                        84.586883779017526
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.057146738755236737, 0.88901659934359845, 0.6724970858745053 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010006565789757366,
+                        -1.3508035959523486e-05,
+                        -7.850492628752637e-05,
+                        -1.3508035959523486e-05,
+                        0.010042123245709866,
+                        0.00017102189549677004,
+                        -7.850492628752637e-05,
+                        0.00017102189549677004,
+                        0.011121970238423016
+                     ],
+                     "covariance_determinant" : 1.1172590464646816e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.940070061586624,
+                        0.12245138050548417,
+                        0.70354854386522059,
+                        0.12245138050548414,
+                        99.606769111598211,
+                        -1.5307832206165193,
+                        0.70354854386522081,
+                        -1.5307832206165195,
+                        89.940631743355155
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.052443034776189605, 0.89106773604520839, 0.72315312011922395 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010010731859206591,
+                        1.3562797509314898e-06,
+                        -3.3549675306408876e-05,
+                        1.3562797509314898e-06,
+                        0.010339216301901755,
+                        0.00033653248491785919,
+                        -3.3549675306408876e-05,
+                        0.00033653248491785919,
+                        0.010641760659578206
+                     ],
+                     "covariance_determinant" : 1.1003100078053793e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.893857548630237,
+                        -0.023378647756922284,
+                        0.3156690201692629,
+                        -0.023378647756922284,
+                        96.818793009670301,
+                        -3.0618479767261562,
+                        0.31566902016926296,
+                        -3.0618479767261566,
+                        94.067235105516474
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.048297255080920296, 0.91188960920836537, 0.77967980192670694 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010165295133757633,
+                        0.00022462896141807866,
+                        8.6612656176937767e-05,
+                        0.00022462896141807866,
+                        0.010654942556402478,
+                        0.00023702468847721273,
+                        8.6612656176937767e-05,
+                        0.00023702468847721273,
+                        0.010106163409786838
+                     ],
+                     "covariance_determinant" : 1.0934532438828026e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        98.426165449725374,
+                        -2.0573423375882349,
+                        -0.79528802121587194,
+                        -2.0573423375882349,
+                        93.945152710403136,
+                        -2.1857086388700697,
+                        -0.79528802121587194,
+                        -2.1857086388700697,
+                        99.007596487921617
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.055932167918484779, 0.94760185985976353, 0.80282441965564899 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010254481570824077,
+                        -5.8128907784796298e-05,
+                        3.2938827323435863e-05,
+                        -5.8128907784796298e-05,
+                        0.010411943940217026,
+                        8.3123446322208938e-05,
+                        3.2938827323435863e-05,
+                        8.3123446322208938e-05,
+                        0.010029936008309922
+                     ],
+                     "covariance_determinant" : 1.0707707536082845e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        97.522482364474072,
+                        0.54705193636030158,
+                        -0.32480257564202331,
+                        0.54705193636030158,
+                        96.052968052056897,
+                        -0.79783888716764972,
+                        -0.32480257564202331,
+                        -0.7978388871676495,
+                        99.709212192908197
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.075282077162368871, 0.96219101704603993, 0.81073588438732369 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010116562535825711,
+                        -0.00015574093531711214,
+                        -1.9073756640387981e-05,
+                        -0.00015574093531711214,
+                        0.010768334328629036,
+                        0.0001941055180221307,
+                        -1.9073756640387981e-05,
+                        0.0001941055180221307,
+                        0.010060228279658323
+                     ],
+                     "covariance_determinant" : 1.0953185176457037e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        98.870075545086337,
+                        1.4270616402286929,
+                        0.15991915653551059,
+                        1.4270616402286929,
+                        92.917779685136097,
+                        -1.790082076887487,
+                        0.15991915653551061,
+                        -1.7900820768874868,
+                        99.436164593860028
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.090930603281543981, 0.93648930652691231, 0.80675478473915185 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010236172217537119,
+                        1.5384538101304889e-05,
+                        1.7174271942642103e-05,
+                        1.5384538101304889e-05,
+                        0.010251390736076088,
+                        8.282849465754679e-05,
+                        1.7174271942642103e-05,
+                        8.282849465754679e-05,
+                        0.010031092632040904
+                     ],
+                     "covariance_determinant" : 1.0525371358092962e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        97.693265180838679,
+                        -0.14526918101178241,
+                        -0.16606149865232736,
+                        -0.14526918101178241,
+                        97.554464600501888,
+                        -0.80527564183398781,
+                        -0.16606149865232739,
+                        -0.80527564183398781,
+                        99.696971051802805
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.083615697157732038, 0.91096636129159525, 0.79870075629106707 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010211940836263457,
+                        -9.1493316538753853e-05,
+                        -2.7702236627969359e-05,
+                        -9.1493316538753853e-05,
+                        0.010076183749064389,
+                        2.5243427953470101e-05,
+                        -2.7702236627969359e-05,
+                        2.5243427953470101e-05,
+                        0.010009275796828192
+                     ],
+                     "covariance_determinant" : 1.0298304783922111e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        97.933268639227791,
+                        0.8885758953425652,
+                        0.26880465026767536,
+                        0.8885758953425652,
+                        99.252611941254926,
+                        -0.2478561555676444,
+                        0.2688046502676753,
+                        -0.24785615556764437,
+                        99.908697045387214
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.061438339320742968, 0.91326453932944385, 0.79894868150384579 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010002658443492917,
+                        -1.5976367607537364e-05,
+                        -0.00011189540029084703,
+                        -1.5976367607537364e-05,
+                        0.010126583049410052,
+                        0.00073469163468681199,
+                        -0.00011189540029084703,
+                        0.00073469163468681199,
+                        0.019072064812580544
+                     ],
+                     "covariance_determinant" : 1.926333735684756e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.980119167558087,
+                        0.11550111998005234,
+                        0.58213192215090748,
+                        0.11550111998005232,
+                        99.026885122783483,
+                        -3.8140233257158522,
+                        0.58213192215090748,
+                        -3.8140233257158522,
+                        52.583046396467346
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.05137323407330556, 0.91616711171661691, 0.095246971463669505 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            }
+         ],
+         "transition" : [
+            0.67374086380004883,
+            0.32625916600227356,
+            0.85601454973220825,
+            0.14398539066314697,
+            0.8766028881072998,
+            0.12339705973863602,
+            0.89739513397216797,
+            0.10260488092899323,
+            0.89721280336380005,
+            0.10278723388910294,
+            0.90637552738189697,
+            0.093624427914619446,
+            0.87445485591888428,
+            0.12554511427879333,
+            0.92863589525222778,
+            0.07136409729719162,
+            0.93651336431503296,
+            0.06348661333322525,
+            1,
+            0
+         ]
+      },
+      {
+         "exitProbabilities" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.10000000149011612 ],
+         "label" : "4",
+         "parameters" : {
+            "absolute_regularization" : 0.01,
+            "covariance_mode" : 0,
+            "gaussians" : 1,
+            "hierarchical" : true,
+            "regression_estimator" : 0,
+            "relative_regularization" : 0.050000000000000003,
+            "states" : 10,
+            "transition_mode" : 1
+         },
+         "states" : [
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010001392848344268,
+                        1.4145432447240369e-06,
+                        -2.9265508008033279e-05,
+                        1.4145432447240369e-06,
+                        0.010001437084243996,
+                        -2.9798356340568877e-05,
+                        -2.9265508008033279e-05,
+                        -2.9798356340568877e-05,
+                        0.011088222535015615
+                     ],
+                     "covariance_determinant" : 1.1091185986119483e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.986847445170838,
+                        -0.013355385317070681,
+                        0.26386266210247783,
+                        -0.013355385317070683,
+                        99.986433580125947,
+                        0.26866709389171478,
+                        0.26386266210247783,
+                        0.26866709389171478,
+                        90.187198602363125
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.95859899388760184, 0.87638561876686216, 0.49801685364798287 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010004644334254128,
+                        4.7591402472684077e-06,
+                        -0.00011080650753789781,
+                        4.7591402472684077e-06,
+                        0.010004902600847186,
+                        -0.00011374131754511493,
+                        -0.00011080650753789781,
+                        -0.00011374131754511493,
+                        0.014153843038865785
+                     ],
+                     "covariance_determinant" : 1.4164834117814495e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.962260600098716,
+                        -0.038656891739372673,
+                        0.7822661355285716,
+                        -0.038656891739372673,
+                        99.960145178491075,
+                        0.80298440135502513,
+                        0.78226613552857149,
+                        0.80298440135502513,
+                        70.664766447937836
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.95586043312358981, 0.87358625202382445, 0.57912810076296584 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010008761230806405,
+                        2.1499715336391225e-06,
+                        -9.4662592020607934e-05,
+                        2.1499715336391225e-06,
+                        0.010001702429934064,
+                        -3.8494387795999083e-05,
+                        -9.4662592020607934e-05,
+                        -3.8494387795999083e-05,
+                        0.01163768435740223
+                     ],
+                     "covariance_determinant" : 1.1648818425248272e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.920154859708845,
+                        -0.018350969839604797,
+                        0.81270415611120461,
+                        -0.01835096983960479,
+                        99.9842548442154,
+                        0.33057225225816911,
+                        0.81270415611120472,
+                        0.33057225225816911,
+                        85.93545134452134
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.95157468577198712, 0.87046038726487263, 0.67465972322738355 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010034142434844446,
+                        -1.9389722279199293e-05,
+                        -0.00015117501440570932,
+                        -1.9389722279199293e-05,
+                        0.01001767369817288,
+                        7.5411776156021425e-05,
+                        -0.00015117501440570932,
+                        7.5411776156021425e-05,
+                        0.010789749281744258
+                     ],
+                     "covariance_determinant" : 1.0842826490819536e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.681112434232958,
+                        0.18243385694306491,
+                        1.3953554947298428,
+                        0.18243385694306491,
+                        99.82916109185156,
+                        -0.695170454223761,
+                        1.395355494729843,
+                        -0.69517045422376111,
+                        92.704968466514686
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.94509623353064365, 0.87128022191375032, 0.72433072364647944 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010052545908911002,
+                        -7.7171922042682992e-05,
+                        -0.0001864288869934403,
+                        -7.7171922042682992e-05,
+                        0.010180865703234156,
+                        0.00030189536208912479,
+                        -0.0001864288869934403,
+                        0.00030189536208912479,
+                        0.010732288609839491
+                     ],
+                     "covariance_determinant" : 1.0970559958523995e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.514380877749559,
+                        0.70365535261083489,
+                        1.7088549932027997,
+                        0.70365535261083478,
+                        98.310449636063225,
+                        -2.7532139863178418,
+                        1.7088549932027994,
+                        -2.7532139863178422,
+                        93.283902330939739
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.93490871300011302, 0.88269574941900575, 0.76697146137744898 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010203961361744297,
+                        0.00013590283664950876,
+                        -0.00011538487786798273,
+                        0.00013590283664950876,
+                        0.01037326078041804,
+                        4.9707979845697883e-05,
+                        -0.00011538487786798273,
+                        4.9707979845697883e-05,
+                        0.010157845582416893
+                     ],
+                     "covariance_determinant" : 1.0748387277122347e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        98.030995342565802,
+                        -1.2896963445225125,
+                        1.1198637085476097,
+                        -1.2896963445225123,
+                        96.420930414458383,
+                        -0.4864910655364631,
+                        1.1198637085476097,
+                        -0.48649106553646315,
+                        98.461173652469554
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.93819766267975679, 0.91621588482558669, 0.79112356171096898 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010232898019171571,
+                        -0.00012258060616335132,
+                        -0.00018107787015279186,
+                        -0.00012258060616335132,
+                        0.010509549410525969,
+                        6.7772905221153868e-05,
+                        -0.00018107787015279186,
+                        6.7772905221153868e-05,
+                        0.010164822445442997
+                     ],
+                     "covariance_determinant" : 1.0926156689057472e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        97.768239659154474,
+                        1.1291600136114783,
+                        1.7341314367362946,
+                        1.1291600136114783,
+                        95.168690355945458,
+                        -0.61441237903651202,
+                        1.7341314367362946,
+                        -0.61441237903651214,
+                        98.413490123236826
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.96433244156615106, 0.9164057298611018, 0.7763454720752988 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.010185805686391325,
+                        5.4318917660418734e-05,
+                        -0.00026992810318432351,
+                        5.4318917660418734e-05,
+                        0.01024636935205607,
+                        -2.0806405140940951e-05,
+                        -0.00026992810318432351,
+                        -2.0806405140940951e-05,
+                        0.010551625844831627
+                     ],
+                     "covariance_determinant" : 1.1004656024994249e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        98.245163246169824,
+                        -0.51572412684791147,
+                        2.51225740817307,
+                        -0.51572412684791147,
+                        97.598642889092119,
+                        0.17925848562536864,
+                        2.5122574081730695,
+                        0.17925848562536864,
+                        94.836745854832174
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.96152166238576475, 0.88190957582281559, 0.78706235119938128 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.01001780452949722,
+                        8.5305610898442978e-06,
+                        -0.00010504860179080235,
+                        8.5305610898442978e-06,
+                        0.010186965518053615,
+                        5.2360903155786317e-05,
+                        -0.00010504860179080235,
+                        5.2360903155786317e-05,
+                        0.011315941594085296
+                     ],
+                     "covariance_determinant" : 1.1546626892154613e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.832068911309818,
+                        -0.08836500189661399,
+                        0.92717393750129939,
+                        -0.088365001896613976,
+                        98.167072346497434,
+                        -0.45505706664393081,
+                        0.92717393750129928,
+                        -0.45505706664393086,
+                        88.381617844996597
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.94248862439834658, 0.90425648760721644, 0.84825776138300157 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            },
+            {
+               "components" : [
+                  {
+                     "bimodal" : false,
+                     "covariance" : [
+                        0.01000016030816258,
+                        3.8679976175867438e-08,
+                        -4.0719251938096817e-05,
+                        3.8679976175867438e-08,
+                        0.010000022643840969,
+                        1.8987050122536105e-06,
+                        -4.0719251938096817e-05,
+                        1.8987050122536105e-06,
+                        0.048046272173879023
+                     ],
+                     "covariance_determinant" : 4.8046985024383038e-06,
+                     "covariance_determinant_input" : 0,
+                     "covariance_mode" : 0,
+                     "dimension" : 3,
+                     "dimension_input" : 0,
+                     "inverse_covariance" : [
+                        99.998742031790016,
+                        -0.00040288532356246877,
+                        0.084749025283574878,
+                        -0.00040288532356246872,
+                        99.999774314058001,
+                        -0.0039521583946435356,
+                        0.084749025283574878,
+                        -0.0039521583946435356,
+                        20.813341247410239
+                     ],
+                     "inverse_covariance_input" : [],
+                     "mean" : [ 0.95013417420044743, 0.92162019822008545, 0.35149663012417315 ],
+                     "output_covariance" : []
+                  }
+               ],
+               "label" : "",
+               "mixture_coeffs" : [ 1 ],
+               "parameters" : {
+                  "absolute_regularization" : 0.01,
+                  "covariance_mode" : 0,
+                  "gaussians" : 1,
+                  "relative_regularization" : 0.050000000000000003
+               }
+            }
+         ],
+         "transition" : [
+            0.74442344903945923,
+            0.25557658076286316,
+            0.57237321138381958,
+            0.42762675881385803,
+            0.78753966093063354,
+            0.21246038377285004,
+            0.85090672969818115,
+            0.14909331500530243,
+            0.86770612001419067,
+            0.13229382038116455,
+            0.95456939935684204,
+            0.045430608093738556,
+            0.95401811599731445,
+            0.045981869101524353,
+            0.94697237014770508,
+            0.053027648478746414,
+            0.95496666431427002,
+            0.045033302158117294,
+            1,
+            0
+         ]
+      }
+   ],
+   "prior" : [ 0.25, 0.25, 0.25, 0.25 ],
+   "shared_parameters" : {
+      "bimodal" : false,
+      "column_names" : [ "", "", "" ],
+      "dimension" : 3,
+      "dimension_input" : 0,
+      "em_algorithm_max_iterations" : 0,
+      "em_algorithm_min_iterations" : 10,
+      "em_algorithm_percent_chg" : 0.01,
+      "likelihood_window" : 1
+   },
+   "transition" : [
+      [ 0.25, 0.25, 0.25, 0.25 ],
+      [ 0.25, 0.25, 0.25, 0.25 ],
+      [ 0.25, 0.25, 0.25, 0.25 ],
+      [ 0.25, 0.25, 0.25, 0.25 ]
+   ]
+}

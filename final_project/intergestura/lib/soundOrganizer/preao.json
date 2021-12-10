@@ -1,0 +1,103 @@
+{
+	"rootDirectory" : "Krane:/Users/krane/kin/nuKin/material/",
+	"soundsets" : 	{
+		"folinet" : 		{
+			"clarinet_acrobat.wav" : [ 0.456015, 0.192744, 0.17517 ],
+			"clarinet_bluejay.wav" : [ 0.768497, 0.485261, 0.159297 ],
+			"clarinet_condor.wav" : [ 0.735604, 0.725624, 0.172902 ],
+			"clarinet_condor_high.wav" : [ 0.536752, 0.834467, 0.179705 ],
+			"clarinet_LOW.wav" : [ 0.204833, 0.535147, 0.170635 ],
+			"cloth_mvmt1.wav" : [ 0.258658, 0.306122, 0.172902 ],
+			"paper_crumple.wav" : [ 0.645896, 0.253968, 0.1661 ],
+			"paper_tear_2.wav" : [ 0.284075, 0.768707, 0.177438 ]
+		}
+,
+		"guitar" : 		{
+			"guitar_string_scrape.wav" : [ 0.717663, 0.247166, 0.25 ],
+			"guitar_stringJangle.wav" : [ 0.236231, 0.251701, 0.25 ],
+			"guitar_stringSlide.wav" : [ 0.23025, 0.780045, 0.25 ],
+			"guitar_muted.wav" : [ 0.761022, 0.75737, 0.25 ],
+			"earthflesh_acousticStrike.wav" : [ 0.5, 0.5, 0.25 ]
+		}
+,
+		"plastics" : 		{
+			"plastic_balloon_squeak.wav" : [ 0.203338, 0.24263, 0.181973 ],
+			"plastic_bottle_twist.wav" : [ 0.485918, 0.294785, 0.163832 ],
+			"plastic_creaking.wav" : [ 0.159979, 0.605442, 0.193311 ],
+			"plastic_cup_squash.wav" : [ 0.789429, 0.303855, 0.159297 ],
+			"plastic_grip.wav" : [ 0.793914, 0.632653, 0.206916 ],
+			"plastic_scratch_1.wav" : [ 0.3379, 0.85034, 0.170635 ],
+			"plastic_scratch_2.wav" : [ 0.689255, 0.848073, 0.191043 ],
+			"plastic_stretch.wav" : [ 0.497879, 0.537415, 0.206916 ]
+		}
+,
+		"paper" : 		{
+			"paper_crumple.wav" : [ 0.16895, 0.235828, 0.25 ],
+			"paper_handling.wav" : [ 0.557684, 0.235828, 0.25 ],
+			"paper_peel.wav" : [ 0.846244, 0.290249, 0.25 ],
+			"paper_scrape.wav" : [ 0.195862, 0.61678, 0.25 ],
+			"paper_slide.wav" : [ 0.858205, 0.594104, 0.25 ],
+			"paper_tear_1.wav" : [ 0.348365, 0.902494, 0.25 ],
+			"paper_tear_2.wav" : [ 0.654867, 0.825397, 0.25 ],
+			"paper_tear_3.wav" : [ 0.493393, 0.530612, 0.25 ]
+		}
+,
+		"sport_string" : 		{
+			"strings_plonkSlide.wav" : [ 0.787934, 0.773243, 0.25 ],
+			"strings_slidey.wav" : [ 0.789429, 0.226757, 0.25 ],
+			"sport_basketBall.wav" : [ 0.240716, 0.818594, 0.25 ],
+			"sports_tennis.wav" : [ 0.204833, 0.217687, 0.25 ],
+			"sitar_pluckpluck.wav" : [ 0.644401, 0.505669, 0.25 ]
+		}
+,
+		"mech_ind" : 		{
+			"veena_slidey.wav" : [ 0.790924, 0.217687, 0.25 ],
+			"startup_95clean.wav" : [ 0.162969, 0.560091, 0.25 ],
+			"flur_brrrrr.wav" : [ 0.506849, 0.823129, 0.25 ],
+			"flute_bhajan.wav" : [ 0.814846, 0.619048, 0.25 ],
+			"glass_shards.wav" : [ 0.182406, 0.276644, 0.25 ],
+			"mech_typewrite.wav" : [ 0.45452, 0.15873, 0.25 ],
+			"mech_carriage.wav" : [ 0.5, 0.5, 0.25 ]
+		}
+,
+		"glitch_drum" : 		{
+			"mic_bump.wav" : [ 0.22726, 0.269841, 0.25 ],
+			"glitch_hunger.wav" : [ 0.50984, 0.208617, 0.25 ],
+			"drums_tambor.wav" : [ 0.778963, 0.414966, 0.25 ],
+			"drum_breathShatter.wav" : [ 0.204833, 0.671202, 0.25 ],
+			"cloth_mvmt1.wav" : [ 0.475452, 0.827664, 0.25 ],
+			"tumble_shatter.wav" : [ 0.482927, 0.544218, 0.25 ],
+			"vocal_hundredDuNuNu.wav" : [ 0.796905, 0.770975, 0.25 ]
+		}
+,
+		"gamelan_foley" : 		{
+			"gamelan_chaos.wav" : [ 0.136057, 0.179138, 0.168367 ],
+			"gamelan_klang.wav" : [ 0.439568, 0.179138, 0.188776 ],
+			"gamelan_low.wav" : [ 0.807371, 0.197279, 0.188776 ],
+			"gamelan_poly.wav" : [ 0.243706, 0.45805, 0.163832 ],
+			"gamelan_strike.wav" : [ 0.903059, 0.455782, 0.188776 ],
+			"gamelan_sync.wav" : [ 0.547218, 0.408163, 0.170635 ],
+			"guitar_string_scrape.wav" : [ 0.074757, 0.848073, 0.195578 ],
+			"guitar_stringJangle.wav" : [ 0.925486, 0.941043, 0.159297 ],
+			"guitar_stringSlide.wav" : [ 0.351356, 0.902494, 0.145692 ],
+			"paper_crumple.wav" : [ 0.633935, 0.909297, 0.170635 ],
+			"paper_tear_3.wav" : [ 0.349861, 0.678005, 0.145692 ],
+			"tumble_shatter.wav" : [ 0.906049, 0.743764, 0.123016 ],
+			"plastic_stretch.wav" : [ 0.645896, 0.664399, 0.147959 ]
+		}
+,
+		"trini" : 		{
+			"steelpan_a_top.wav" : [ 0.098678630054959, 0.167800453514739, 0.25 ],
+			"steelpan_c_top.wav" : [ 0.457510012072994, 0.18140589569161, 0.25 ],
+			"steelpan_click_plong.wav" : [ 0.832787832433521, 0.188208616780045, 0.25 ],
+			"steelpan_f_low.wav" : [ 0.155493598874482, 0.535147392290249, 0.25 ],
+			"steelpan_plonkplonk.wav" : [ 0.83428296319193, 0.528344671201814, 0.25 ],
+			"tabla_classic.wav" : [ 0.189881606317877, 0.879818594104308, 0.25 ],
+			"tabla_modern.wav" : [ 0.509839588617291, 0.875283446712018, 0.25 ],
+			"tabla_quickSlap.wav" : [ 0.88362227821941, 0.879818594104308, 0.25 ],
+			"tabla_slow.wav" : [ 0.5, 0.5, 0.25 ]
+		}
+
+	}
+
+}
